@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    
+    <!-- Step 1 -->
+    <input type="radio" name="step" id="q1" checked>
+    <div class="question">
+      <h2>1. What does “AI” stand for?</h2>
+      <ul class="options">
+        <li><input type="radio" id="q1a" name="q1opt"><label for="q1a">Automated Information</label></li>
+        <li><input type="radio" id="q1b" name="q1opt"><label for="q1b">Artificial Intelligence</label></li>
+        <li><input type="radio" id="q1c" name="q1opt"><label for="q1c">Advanced Internet</label></li>
+        <li><input type="radio" id="q1d" name="q1opt"><label for="q1d">Analytical Interface</label></li>
+      </ul>
+      <div class="navigation">
+        <label class="btn" for="q2">Next</label>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <input type="radio" name="step" id="q2">
+    <div class="question">
+      <h2>2. Which AI model is best known for generating text?</h2>
+      <ul class="options">
+        <li><input type="radio" id="q2a" name="q2opt"><label for="q2a">GPT</label></li>
+        <li><input type="radio" id="q2b" name="q2opt"><label for="q2b">CNN</label></li>
+        <li><input type="radio" id="q2c" name="q2opt"><label for="q2c">RNN</label></li>
+        <li><input type="radio" id="q2d" name="q2opt"><label for="q2d">KNN</label></li>
+      </ul>
+      <div class="navigation">
+        <label class="btn" for="q3">Next</label>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <input type="radio" name="step" id="q3">
+    <div class="question">
+      <h2>3. Which company developed ChatGPT?</h2>
+      <ul class="options">
+        <li><input type="radio" id="q3a" name="q3opt"><label for="q3a">Google</label></li>
+        <li><input type="radio" id="q3b" name="q3opt"><label for="q3b">Meta</label></li>
+        <li><input type="radio" id="q3c" name="q3opt"><label for="q3c">OpenAI</label></li>
+        <li><input type="radio" id="q3d" name="q3opt"><label for="q3d">IBM</label></li>
+      </ul>
+      <div class="navigation">
+        <label class="btn" for="submit">Submit</label>
+      </div>
+    </div>
+
+    <!-- Submit Page -->
+    <input type="radio" name="step" id="submit">
+    <div class="question">
+      <h2>✅ Thank you!</h2>
+      <p>Your AI quiz has been submitted.</p>
+    </div>
+
+  </div>
+</body>
+</html>
