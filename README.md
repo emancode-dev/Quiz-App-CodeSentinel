@@ -10,9 +10,6 @@ The project is a **quiz application** designed using **only HTML and CSS** — n
 - 📱 Responsive and clean design  
 - 🏁 Simple submission screen to finish the quiz  
 
-## 🖼️ Preview  
-*(Add screenshot here if available)*  
-
 ## 🛠️ Tech Stack  
 - **HTML5**  
 - **CSS3 (Flexbox, gradients, transitions)** 
